@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    position: relative;
+    background-color: aliceblue;
+}
+
+.container{
+
+    line-height: 3rem;
+    border: 1rem solid burlywood;
+    border-radius: 2rem;
+    font-size: 2rem;
+    display: block;
+    padding: 7rem;
+    text-transform:uppercase;
+    background-color: bisque;
+    box-shadow: .4rem .8rem 1rem black;
+    max-height: 47.8rem;
+    min-height: 47.8rem;
+    max-width: 50rem;
+    min-width: 50rem;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.opac{
+    opacity: 0;
+}
+.reverse_opac{
+    opacity: 1;
+}
+.modal{
+    position: relative;
+    top: 10rem;
+    line-height: 3rem;
+    border: 1rem solid darkcyan;
+    border-radius: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: block;
+    padding: 7rem;
+    text-transform:uppercase;
+    background-color: darkcyan;
+    box-shadow: .4rem .8rem 1rem black;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70rem;
+}
+.return{
+    display: none;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    background-color: darkgrey;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 3rem;
+    text-transform: capitalize;
+    box-shadow: .2rem .2rem .4rem black;
+    cursor: pointer;
+    position: fixed;
+    top: 23rem;
+    left: 32rem;
+    /* transform: translate(-50%, -80%); */
+    
+  
+}
+ .return:hover{
+    background-color: darkkhaki;
+    box-shadow: .4rem .4rem .5rem black;
+
+} 
+
+.container .choice-ed{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    transition: all .5s;
+    font-weight: bold;
+    background-color: silver;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 .1rem .2rem black;
+
+}
+
+.btn:hover{
+    transform: scale(1.5);
+    margin: 0 0 2rem 2.5rem;
+    box-shadow: 0 .3rem .5rem black;
+}
+
+.options{
+    margin-bottom: 2rem;
+}
+.danger{
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem
+}
+.score{
+    background-color: darkgray;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
